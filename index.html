@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎉 Happy Birthday Prudhvila 🎂</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One:wght@400&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+     <link rel="icon" href="images/img6.jpeg" type="image/jpg">
+</head>
+<body style="background-image:url('images/img7.jpeg') ;">
+    <!-- Animated Background Elements -->
+    <div class="background-animation">
+        <div class="floating-balloons">
+            <div class="balloon balloon-1">🎈</div>
+            <div class="balloon balloon-2">🎈</div>
+            <div class="balloon balloon-3">🎈</div>
+            <div class="balloon balloon-4">🎈</div>
+            <div class="balloon balloon-5">🎈</div>
+        </div>
+        <div class="confetti-container" id="confettiContainer"></div>
+        <div class="particles" id="particles"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Prudhvila's Angel Birthday 🎂 </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">My Angel💖</a></li>
+                <li><a href="#gallery" class="nav-link">Sweet Memories💞</a></li>
+                <li><a href="#music" class="nav-link">Party Beats🎶</a></li>
+                <li><a href="#game" class="nav-link">Fun Time🎮</a></li>
+                <li><a href="#message" class="nav-link">Sweet Message💌</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+    <img src="images/img7.jpeg" alt="Birthday" class="hero-img">
+
+    <div class="hero-overlay">
+        <h1 class="hero-title">Happy Birthday Prudhvila Papa!🎉</h1>
+        <p class="hero-subtitle">Let's celebrate this special day together!</p>
+
+        <div class="birthday-candles">
+            <div class="candle"><div class="flame"></div><div class="wick"></div><div class="wax"></div></div>
+            <div class="candle"><div class="flame"></div><div class="wick"></div><div class="wax"></div></div>
+            <div class="candle"><div class="flame"></div><div class="wick"></div><div class="wax"></div></div>
+        </div>
+
+        <button class="cta-button" id="celebrateBtn">
+            Start the Celebration 🎊
+        </button>
+    </div>
+</section>
+
+
+    <!-- Photo Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">📸 Memory Gallery</h2>
+            <div class="gallery-controls">
+                <button class="gallery-btn" id="gridViewBtn">Grid View</button>
+                <button class="gallery-btn" id="slideshowViewBtn">Slideshow</button>
+            </div>
+            
+            <!-- Grid View -->
+            <div class="gallery-grid" id="galleryGrid">
+                <div class="gallery-item" data-caption="Birthday Party 2024">
+                    <img src="images/img3.jpeg" alt="Birthday celebration">
+                    <div class="gallery-overlay">
+                        <h3>💞Not my blood, still my heartbeat</h3>
+                        <p>🤍Some people enter life and become family forever</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-caption="Cake Time!">
+                    <img src="images/img12.jpeg" alt="Birthday cake">
+                    <div class="gallery-overlay">
+                        <h3>🌱We didn’t grow up together</h3>
+                        <p>But my heart grew around you</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-caption="Friends Forever">
+                    <img src="images/img9.jpeg" alt="Friends celebrating">
+                    <div class="gallery-overlay">
+                        <h3>🫶Sister in every way that matters</h3>
+                        <p>💫Care, fights, laughter — all real, all ours</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-caption="Birthday Surprise">
+                    <img src="images/img1.jpeg" alt="Birthday surprise">
+                    <div class="gallery-overlay">
+                        <h3>🌸Chosen, not born</h3>
+                        <p>💗 Yet loved deeper than blood ever could</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-caption="Party Decorations">
+                    <img src="images/img10.jpeg" alt="Party decorations">
+                    <div class="gallery-overlay">
+                        <h3>💭 No title can define us</h3>
+                        <p>🤍 This bond is felt, not explained</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-caption="Group Photo">
+                    <img src="images/img6.jpeg" alt="Group photo">
+                    <div class="gallery-overlay">
+                        <h3>💞 Not my own sister… still my own</h3>
+                        <p>🫀 My heart never learned the difference</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slideshow View -->
+            <div class="gallery-slideshow" id="gallerySlideshow" style="display: none;">
+                <div class="slideshow-container">
+                    <div class="slide active">
+                        <img src="images/img20.jpeg" alt="Birthday celebration">
+                        <div class="slide-caption">Today isn’t just your birthday,it’s the day my heart celebrates having you as my sister 💞✨</div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/img17.jpeg" alt="Birthday cake">
+                        <div class="slide-caption">You are not just part of my life,you are part of my strength, my sister 🤍</div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/img16.jpeg" alt="Friends celebrating">
+                        <div class="slide-caption">Some bonds don’t need blood,they just need a heart that feels…and you are mine, sister 💕</div>
+                    </div>
+                </div>
+                <button class="slide-btn prev" id="prevSlideBtn">❮</button>
+                <button class="slide-btn next" id="nextSlideBtn">❯</button>
+                <div class="slide-indicators">
+                    <span class="indicator active" data-slide="0"></span>
+                    <span class="indicator" data-slide="1"></span>
+                    <span class="indicator" data-slide="2"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Music Section -->
+    <section id="music" class="music-section">
+        <div class="container">
+            <h2 class="section-title">🎵 Birthday Playlist</h2>
+            <div class="music-player">
+                <div class="player-display">
+                    <div class="album-art">
+                        <div class="vinyl-record" id="vinylRecord">
+                            <div class="vinyl-center"></div>
+                        </div>
+                    </div>
+                    <div class="track-info">
+                        <h3 id="trackTitle">Happy Birthday Song</h3>
+                        <p id="trackArtist">Birthday Collection</p>
+                        <div class="progress-container">
+                            <div class="progress-bar">
+
+                                <div class="progress" id="progress"></div>
+                            </div>
+                            <div class="time-display">
+                                <span id="currentTime">0:00</span>
+                                <span id="duration">2:30</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="player-controls">
+                    <button class="control-btn" id="prevTrackBtn">⏮️</button>
+                    <button class="control-btn play-pause-btn" id="playPauseBtn">▶️</button>
+                    <button class="control-btn" id="nextTrackBtn">⏭️</button>
+                </div>
+
+                <div class="volume-control">
+                    <span>🔊</span>
+                    <input type="range" id="volumeSlider" min="0" max="100" value="50">
+                </div>
+
+                <div class="playlist">
+                    <h4>🎶 Playlist</h4>
+                    <div class="playlist-item active" data-track="0">
+                        <span>1. Happy Birthday Song</span>
+                        <span>2:30</span>
+                    </div>
+                    <div class="playlist-item" data-track="1">
+                        <span>2. Celebration Time</span>
+                        <span>3:15</span>
+                    </div>
+                    <div class="playlist-item" data-track="2">
+                        <span>3. Party Anthem</span>
+                        <span>2:45</span>
+                    </div>
+                </div>
+
+                <!-- Audio elements -->
+                <audio id="audioPlayer" preload="metadata"></audio>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Puzzle Game Section -->
+    <section id="game" class="game-section">
+        <div class="container">
+            <h2 class="section-title">🧩 Birthday Puzzle Challenge</h2>
+            <div class="game-controls">
+                <div class="difficulty-selector">
+                    <label>Difficulty:</label>
+                    <select id="difficultySelect">
+                        <option value="easy">Easy (3x3)</option>
+                        <option value="medium">Medium (4x4)</option>
+                        <option value="hard">Hard (5x5)</option>
+                    </select>
+                </div>
+                <div class="game-stats">
+                    <div class="stat">
+                        <span>Time:</span>
+                        <span id="gameTimer">00:00</span>
+                    </div>
+                    <div class="stat">
+                        <span>Moves:</span>
+                        <span id="moveCounter">0</span>
+                    </div>
+                </div>
+                <button class="game-btn" id="newGameBtn">New Game</button>
+                <button class="game-btn" id="showSolutionBtn">Show Solution</button>
+            </div>
+
+            <div class="puzzle-container">
+                <div class="puzzle-board" id="puzzleBoard">
+                    <!-- Puzzle pieces will be generated here -->
+                </div>
+                <div class="solution-preview" id="solutionPreview">
+                    <h4>Solution Preview:</h4>
+                    <img src="" alt="Solution" id="solutionImage">
+                </div>
+            </div>
+
+            <div class="game-completion" id="gameCompletion" style="display: none;">
+                <div class="completion-message">
+                    <h3>🎉 Congratulations! 🎉</h3>
+                    <p>You solved the puzzle!</p>
+                    <p>Time: <span id="finalTime"></span></p>
+                    <p>Moves: <span id="finalMoves"></span></p>
+                    <button class="game-btn" id="playAgainBtn">Play Again</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Birthday Message Section -->
+    <section class="message-section" id="message">
+        <div class="container">
+            <div class="message-card">
+                <h2 class="message-title">A Special Message for You, Prudhvila 🫶Sister</h2>
+                <div class="message-content">
+                    <p class="message-text fade-in-text">
+                       We may not be connected by blood,but in my heart, you are no less than my own sister.Life naku chala mandi ni parichayam chesindhi,kani nee place mathram evaru replace cheyaleru.
+                    </p>
+                    <p class="message-text fade-in-text">
+                        Nenu sometimes health valla, mood valla,chinna chinna vatiki kuda emotional ayipotha.Aa moments lo nenu ninnu viskistha vunta,chala sarlu ardham lekunda matladatha kuda.Please aa vishayalu anni manasulo petukoku.Adi kopam valla kaadu,nee daggara safe ga feel avuthunna kabatti ala vuntuna.
+                    </p>
+                    <p class="message-text fade-in-text">
+                        Nenu em thappu chesina,nuvvu naku cheppali — open ga, nijam ga.Nenu padatha, nenu oppukunta,endhukante nee mata naku value.Nenu em anna thappu ga vachina,adi ninnu hurt cheyadaniki kaadu anikoncham ardham chesukovali ani korukuntunna.
+                    </p>
+                    <p class="message-text fade-in-text">
+                    You are truly the best sister I could ever ask for.Nee care, nee patience, nee presence —ivanni naku strength la untai.Nenu life lo entha grow ayina,nee bond mathram life long kavali ani na korika.Nenu okasari emotionally bagokapothe,please koncham ardham chesukoni barinchu.Endhukante aa moments lo naku kavalsindi advice kaadu,nee voice, nee support, nee warmth.
+                    </p>
+                    <p class="message-text fade-in-text">
+                        Inka okati cheppali anukuntunna…Neeku eppudaina problem vachina,lekapothe heart lo em ayina undipoyina,adi chinna ayina pedda ayina —naku cheppadaniki hesitation pettukoku.Nenu perfect kaakapovachu,kani nee pain ni share cheskodaniki,nee side lo nilabadaniki nenu eppudu ready ga untanu.Ee bond iddari okkate kaadu,iddaram share cheskune strength.
+                    </p>
+                    <p class="message-text fade-in-text">
+                        Naku health condition sari ga leni rojullo,chinna chinna daniki kuda nenu baga emotional ayipothunna.Aa time lo nenu neku call chestha —please aa call ni burden la kaadu,nee Annaya weakness la chusikoncham strength ivvu…adi chalu, nenu malli strong ayipotha.
+                    </p>                    
+                    <p class="message-signature fade-in-text">
+                       Happy Birthday, my sister 🎂Not by blood, but by heart — forever 💞✨
+                    </p>
+                </div>
+                <div class="message-hearts">
+                    <span class="heart-animation">💖</span>
+                    <span class="heart-animation">💕</span>
+                    <span class="heart-animation">💗</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p> You’re not just my sister — you’re my safest place, my forever friend, and the part of my heart that walks outside my body💞</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#music">Music</a>
+                <a href="#game">Game</a>
+                <a href="#countdown">Sweet message</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
